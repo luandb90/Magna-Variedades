@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Magna Variedades</title>
+</head>
+
+<body>
+
+<div class="header">Magna Variedades</div>
+
+<div class="menu">
+  <button onclick="filtrarMarca('Todos')">Todos</button>
+  <button onclick="filtrarMarca('Natura')">Natura</button>
+  <button onclick="filtrarMarca(`O'Boticário`)">O'Boticário</button>
+  <button onclick="filtrarMarca('Avon')">Avon</button>
+  <button onclick="filtrarMarca('Demillus')">Demillus</button>
+  <button onclick="filtrarMarca('Diversos')">Diversos</button>
+</div>
+
+<button class="cart-toggle" onclick="toggleCart()">🛒 Carrinho (<span id="cartCount">0</span>)</button>
+
+<div class="container" id="productList"></div>
+
+<div class="cart" id="cart">
+  <h2>Seu Carrinho</h2>
+  <div id="cartItems"></div>
+  <div class="cart-total">Total: R$ <span id="cartTotal">0.00</span></div>
+  <button class="finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+  <button class="limpar" onclick="limparCarrinho()">Esvaziar Carrinho</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
