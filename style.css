@@ -241,6 +241,7 @@ body {
     margin-top: -15px;
   }
   .cart-toggle{
+    display: block;
     margin-top: 15px;
     margin-right: -45px;
   }
