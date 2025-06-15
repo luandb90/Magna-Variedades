@@ -5,7 +5,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
- body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -257,6 +257,12 @@
 }
 .cart-item {
   font-size: 16px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eeeded;
 }
 
 }
