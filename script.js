@@ -60,22 +60,56 @@ const produtos = [
   { nome: "Paz e Humor 75 ml - Masculino", preco: 123.90, marca: "Natura", estoque: 3, imagem: "img/Paz e Humor.JPG" },
   { nome: "Humor a Rigor 75 ml - Masculino", preco: 123.90, marca: "Natura", estoque: 1, imagem: "img/Humor a Rigor.JPG" },
   { nome: "Miniatura Humor a Rigor 25 ml - Masculino", preco: 49.90, marca: "Natura", estoque: 2, imagem: "img/MiniaturaHUMOR.JPG" },
-  
-  
+  //Hidratante Natura
+  { nome: "Creme Para o Corpo Tododia Macadâmia 400ml", preco: 72.90, marca: "Natura", estoque: 17, imagem: "img/Tododia Macadâmia.jpg" },
+  { nome: "Creme Para o Corpo Tododia Algodão 400ml", preco: 72.90, marca: "Natura", estoque: 13, imagem: "img/Algodão.jpg" },
+  { nome: "Creme Para o Corpo Tododia Ameixa e Flor de Baunilha 400ml", preco: 72.90, marca: "Natura", estoque: 12, imagem: "img/Ameixa e Flor de Baunilha.jpg" },
+  { nome: "Creme Para o Corpo Tododia Noz Pecã e Cacau 400ml", preco: 72.90, marca: "Natura", estoque: 9, imagem: "img/Noz Pecã e Cacau.jpg" },
+  { nome: "Creme Para o Corpo Tododia Cereja e Avelã 400ml", preco: 72.90, marca: "Natura", estoque: 14, imagem: "img/Cereja e Avelã.jpg" },
+  { nome: "Creme Para o Corpo Tododia Cereja Negra e Praliné 400ml", preco: 72.90, marca: "Natura", estoque: 5, imagem: "img/Cereja Negra e Praliné.jpg" },
+  { nome: "Creme Para o Corpo Tododia Framboesa e Pimenta Rosa 400ml", preco: 72.90, marca: "Natura", estoque: 5, imagem: "img/Framboesa e Pimenta Rosa.jpg" },
+  { nome: "Creme Para o Corpo Tododia Amora Vermelha e Jabuticaba 400ml", preco: 72.90, marca: "Natura", estoque: 5, imagem: "img/Amora Vermelha e Jabuticaba.jpg" },
+  { nome: "Creme Para o Corpo Tododia Chá de Camomila e Lavanda 400ml", preco: 72.90, marca: "Natura", estoque: 4, imagem: "img/Todanoite.jpg" },
+  { nome: "Creme Para o Corpo Tododia Manga Rosa E Água De Coco 400ml", preco: 72.90, marca: "Natura", estoque: 3, imagem: "img/Manga Rosa E Água De Coco.webp" },
+  { nome: "Creme Para o Corpo Tododia Flor De Pera E Melissa 400ml", preco: 72.90, marca: "Natura", estoque: 2, imagem: "img/Flor De Pera E Melissa.webp" },
+  { nome: "Creme Para o Corpo Tododia Flor de Maçã 400ml", preco: 72.90, marca: "Natura", estoque: 3, imagem: "img/Flor de Maçã.jpg" },
+  { nome: "Creme Para o Corpo Tododia Romã e Flor de Amora 400ml", preco: 72.90, marca: "Natura", estoque: 1, imagem: "img/Romã e Flor de Amora.jpg" },
+  { nome: "Creme Para o Corpo Tododia Jambo Rosa e Flor de Caju 400ml", preco: 72.90, marca: "Natura", estoque: 1, imagem: "img/Jambo Rosa e Flor de Caju.jpg" },
+  { nome: "Creme Para o Corpo Tododia Frambosa e Pimenta Vermelha 400ml", preco: 72.90, marca: "Natura", estoque: 1, imagem: "img/Frambosa e Pimenta Vermelha.webp" },
+  { nome: "Creme Para o Corpo Tododia Flor de Gengibre e Tangerina 400ml", preco: 72.90, marca: "Natura", estoque: 1, imagem: "img/Flor de Gengibre e Tangerina.jpg" },
+  //Oboticario - Feminino
+  { nome: "Egeo Choc Desodorante Colônia 90ml", preco: 154.90, marca: "O'Boticário", estoque: 1, imagem: "img/Egeo choc.webp" },
+  { nome: "Egeo Red Desodorante Colônia 90ml", preco: 154.90, marca: "O'Boticário", estoque: 1, imagem: "img/Egeo red.webp" },
+  { nome: "Glamour Myriad Desodorante Colônia 75ml", preco: 174.90, marca: "O'Boticário", estoque: 1, imagem: "img/Glamour myriad.webp" },
+  { nome: "Floratta Red Desodorante Colônia 75ml", preco: 149.90, marca: "O'Boticário", estoque: 1, imagem: "img/Florata red.webp" },
+  { nome: "Floratta Red Passion Eau De Parfum 75ml", preco: 199.90, marca: "O'Boticário", estoque: 2, imagem: "img/Florata  red passion.webp" },
+  { nome: "Floratta Blue Desodorante Colônia 75ml", preco: 149.90, marca: "O'Boticário", estoque: 1, imagem: "img/Florata blue.webp" },
+  { nome: "Floratta Gold Desodorante Colônia 75ml", preco: 149.90, marca: "O'Boticário", estoque: 1, imagem: "img/Floratta Gold.webp" },
+  { nome: "Splash Desodorante Colônia Lily 200ml", preco: 114.90, marca: "O'Boticário", estoque: 1, imagem: "img/Lily body splash.webp" },
+  { nome: "Refil Glamour Secret Black Desodorante Colônia 75ml", preco: 129.90, marca: "O'Boticário", estoque: 1, imagem: "img/Glamour secretes black refil.webp" },
+  { nome: "Coffee Addictive Oriental Frutal Desodorante Colônia 100ml", preco: 199.90, marca: "O'Boticário", estoque: 2, imagem: "img/Coffee addictive.webp" },
+  //Oboticario - Masculino
+  { nome: "Malbec Icon Desodorante Colônia 100ml", preco: 209.90, marca: "O'Boticário", estoque: 1, imagem: "img/Malbec Icon.webp" },
+  { nome: "Malbec Desodorante Colônia 100ml", preco: 199.90, marca: "O'Boticário", estoque: 3, imagem: "img/Malbec tradicional.webp" },
+  { nome: "Malbec Gold Desodorante Colônia 100ml", preco: 239.90, marca: "O'Boticário", estoque: 1, imagem: "img/Malbec Gold.webp" },
+  { nome: "Malbec Magnetic Desodorante Colônia 100ml", preco: 239.90, marca: "O'Boticário", estoque: 1, imagem: "img/Malbec  magnetic.webp" },
+  { nome: "Malbec Black Desodorante Colônia 100ml", preco: 249.90, marca: "O'Boticário", estoque: 1, imagem: "img/Malbec Black.webp" },
+  { nome: "Portinari Desodorante Colônia 100ml", preco: 179.90, marca: "O'Boticário", estoque: 1, imagem: "img/Portinari.webp" },
+  { nome: "Arbo Intenso Desodorante Colônia 100ml", preco: 159.90, marca: "O'Boticário", estoque: 1, imagem: "img/Arbo Intenso.webp" },
+  { nome: "Arbo Desodorante Colônia 100ml", preco: 159.90, marca: "O'Boticário", estoque: 1, imagem: "img/Arbo.webp" },
+  { nome: "Refil Arbo Desodorante Colônia 100ml", preco: 99.90, marca: "O'Boticário", estoque: 1, imagem: "img/Refil Arbo.webp" },
+  { nome: "Quasar Vision Desodorante Colônia 100ml", preco: 159.90, marca: "O'Boticário", estoque: 1, imagem: "img/Quasar Vision.webp" },
+  { nome: "Quasar Classic Desodorante Colônia 100ml", preco: 159.90, marca: "O'Boticário", estoque: 2, imagem: "img/Quasar Classic.webp" },
+  { nome: "Uomini Desodorante Colônia 100ml", preco: 189.90, marca: "O'Boticário", estoque: 1, imagem: "img/Uomini.webp" },
 
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
   //{ nome: "Hidratante Corporal", preco: 39.90, marca: "O'Boticário", imagem: "https://via.placeholder.com/220x180?text=Natura+Hidratante" },
-  //{ nome: "Kit Presente", preco: 79.90, marca: "Diversos", imagem: "https://via.placeholder.com/220x180?text=Diversos+Kit" }
+  { nome: "Bolsa Xaviera preto", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa1.jpg" },
+  { nome: "Bolsa Xaviera Azul", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa2.jpg" },
+  { nome: "Bolsa Xaviera marrom", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa3.jpg" },
+  { nome: "Bolsa Xaviera preto", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa4.jpg" },
+  { nome: "Bolsa Xaviera preto", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa5.jpg" },
+  { nome: "Bolsa Xaviera marrom", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa6.jpg" },
+  { nome: "Bolsa Xaviera rosa", preco: 79.90, marca: "Diversos",estoque: 1, imagem: "img/Bolsa7.jpg" },
 ];
 
 let cart = [];
