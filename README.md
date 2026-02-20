@@ -40,7 +40,7 @@ Design Responsivo: Adaptado para visualização em dispositivos móveis e deskto
 
 ⚙️ Como executar o projeto:
 
-1 - Clone este repositório: git clone https://github.com/seu-usuario/magna-variedades.git
+1 - Clone este repositório: git@github.com:luandb90/Magna-Variedades.git
 
 2 - Navegue até a pasta do projeto.
 
